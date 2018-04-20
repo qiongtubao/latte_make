@@ -1,0 +1,18 @@
+{
+	"name": "{{packageName}}",
+	"version":"0.0.1",
+	"description": "{{packageName}}",
+	"keywords": ["latte", "{{packageName}}"],
+	"author": "qiongtubao",
+	"main": "lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qiongtubao/{{packageName}}.git"
+	},
+	"dependencies": {
+		"latte_lib": "*"
+    },
+    "devDependencies": {
+		
+    }
+}

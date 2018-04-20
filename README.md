@@ -17,3 +17,5 @@ cd {{dir}}/latte_make
 
 template (内置)
 * tsconfig.json
+* ts
+* learn
