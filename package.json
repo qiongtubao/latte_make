@@ -1,21 +1,26 @@
 {
 	"name": "latte_make",
-	"version":"0.0.1",
+	"version": "0.0.1",
 	"description": "latte_make",
-	"keywords": ["latte","latte_shell", "latte_make"],
+	"keywords": [
+		"latte",
+		"latte_shell",
+		"latte_make"
+	],
 	"author": "qiongtubao",
 	"main": "lib/index.js",
 	"bin": {
-		"init": "bin/init"
+		"init": "bin/init",
+		"tmake": "bin/make"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/qiongtubao/latte_make.git"
 	},
 	"dependencies": {
-		"latte_lib": "*"
-    },
-    "devDependencies": {
-		
-    }
+		"latte_lib": "*",
+		"typescript": "*",
+		"uglify-js": "^3.4.4"
+	},
+	"devDependencies": {}
 }

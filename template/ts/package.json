@@ -1,8 +1,11 @@
 {
 	"name": "{{packageName}}",
-	"version":"0.0.1",
+	"version": "0.0.1",
 	"description": "{{packageName}}",
-	"keywords": ["latte", "{{packageName}}"],
+	"keywords": [
+		"latte",
+		"{{packageName}}"
+	],
 	"author": "qiongtubao",
 	"main": "lib/index.js",
 	"repository": {
@@ -11,8 +14,8 @@
 	},
 	"dependencies": {
 		"latte_lib": "*"
-    },
-    "devDependencies": {
-		
-    }
+	},
+	"devDependencies": {
+		"chai": "*"
+	}
 }

@@ -1,4 +1,4 @@
-export  interface Method {
+export interface Method {
     method: string;
     params: Array<any>;
     id?: number;
@@ -8,4 +8,8 @@ export interface Result {
     result: any;
     id: number;
 };
+export interface Map {
+    [key: string]: any;
+}
+
 
